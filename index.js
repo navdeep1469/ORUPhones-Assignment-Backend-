@@ -12,7 +12,7 @@ mongoose
     process.env.MONGO_URI
   )
   .then((res) => {
-    console.log("Conneced");
+    console.log("Database Connected");
   })
   .catch((err) => {
     console.log(err);
